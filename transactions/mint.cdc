@@ -3,9 +3,7 @@ import ExampleNFT from "ExampleNFT.cdc"
 
 /// Mints a new ExampleNFT into recipient's account
 
-transaction(
-    recipient: Address,
-) {
+transaction(recipient: Address) {
     /// Reference to the receiver's collection
     let recipientCollectionRef: &{NonFungibleToken.CollectionPublic}
 
