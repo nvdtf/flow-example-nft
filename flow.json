@@ -1,0 +1,22 @@
+{
+	"networks": {
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"contracts": {
+		"MetadataViews": {
+			"aliases": {
+				"testnet": "0x631e88ae7f1d7c20"
+			}
+		},
+		"NonFungibleToken": {
+			"aliases": {
+				"testnet": "0x631e88ae7f1d7c20"
+			}
+		},
+		"ExampleNFT": {
+			"aliases": {
+				"testnet": "0x2bd9d8989a3352a1"
+			}
+		}
+	}
+}
